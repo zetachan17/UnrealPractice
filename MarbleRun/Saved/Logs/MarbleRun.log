@@ -2698,3 +2698,425 @@ Floor
 [2021.01.20-00.32.07:039][521]LogFileHelpers: Saving map 'Level1' took 0.134
 [2021.01.20-00.32.07:046][521]AssetCheck: New page: Asset Save: Level1
 [2021.01.20-00.32.07:046][521]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Level1.Level1
+[2021.01.20-00.42.07:205][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.01.20-00.42.07:206][512]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Level1' took 0.018
+[2021.01.20-00.42.07:207][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/StaticMesh] ([1] browsable assets)...
+[2021.01.20-00.42.07:280][512]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/StaticMesh.StaticMesh]
+[2021.01.20-00.42.07:280][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/StaticMesh]
+[2021.01.20-00.42.07:280][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/StaticMesh" FILE="../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/Autosaves/Game/Meshes/StaticMesh_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.01.20-00.42.07:292][512]LogSavePackage: Moving '../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/StaticMesh_Auto1C633BF8D45D27777FD32529BBC7D4B7D.tmp' to '../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/Autosaves/Game/Meshes/StaticMesh_Auto1.uasset'
+[2021.01.20-00.42.07:293][512]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/StaticMesh1] ([1] browsable assets)...
+[2021.01.20-00.42.07:326][512]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/StaticMesh1.StaticMesh1]
+[2021.01.20-00.42.07:326][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/StaticMesh1]
+[2021.01.20-00.42.07:326][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/StaticMesh1" FILE="../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/Autosaves/Game/Meshes/StaticMesh1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.01.20-00.42.07:336][512]LogSavePackage: Moving '../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/StaticMesh1_Auto1CE67D7CE44FA8B6644BC4DB0A5ECB6DB.tmp' to '../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/Autosaves/Game/Meshes/StaticMesh1_Auto1.uasset'
+[2021.01.20-00.42.07:336][512]LogFileHelpers: Auto-saving content packages took 0.130
+[2021.01.20-00.44.22:444][819]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.01.20-00.46.33:379][143]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.20-00.46.33:459][143]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.20-00.46.47:089][417]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2021.01.20-00.46.47:107][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/StaticMesh" FILE="../../../../../../../Unreal/UnrealPractice/MarbleRun/Content/Meshes/StaticMesh.uasset" SILENT=true
+[2021.01.20-00.46.47:114][417]LogSavePackage: Moving '../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/StaticMeshF22BE2EC43849218368DACADEA4D0E33.tmp' to '../../../../../../../Unreal/UnrealPractice/MarbleRun/Content/Meshes/StaticMesh.uasset'
+[2021.01.20-00.46.47:115][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/StaticMesh1" FILE="../../../../../../../Unreal/UnrealPractice/MarbleRun/Content/Meshes/StaticMesh1.uasset" SILENT=true
+[2021.01.20-00.46.47:121][417]LogSavePackage: Moving '../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/StaticMesh10342C70844ECF4DAAEB8948962309ABD.tmp' to '../../../../../../../Unreal/UnrealPractice/MarbleRun/Content/Meshes/StaticMesh1.uasset'
+[2021.01.20-00.47.03:540][417]LogMainFrame: Project does not require temp target
+[2021.01.20-00.47.03:548][417]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game.target
+[2021.01.20-00.47.03:596][417]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.20-00.47.03:596][417]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/StaticMesh1.StaticMesh1
+[2021.01.20-00.47.03:596][417]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/StaticMesh.StaticMesh
+[2021.01.20-00.47.03:874][417]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2021.01.20-00.47.03:874][417]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=D:/Unreal/UnrealPractice/MarbleRun/MarbleRun.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=D:/Unreal/UnrealPractice/MarbleRun/MarbleRun.uproject -cook -stage -archive -archivedirectory=D:/Unreal -package -ue4exe="D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -ddc=InstalledDerivedDataBackendGraph -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Development -utf8output
+[2021.01.20-00.47.04:778][438]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for D:\Unreal\UnrealPractice\MarbleRun\MarbleRun.uproject
+[2021.01.20-00.47.04:984][442]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2021.01.20-00.47.04:988][442]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project D:\Unreal\UnrealPractice\MarbleRun\MarbleRun.uproject
+[2021.01.20-00.47.04:989][442]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Programs\AutomationTool\Saved\Cook-2021.01.19-19.47.04.txt
+[2021.01.20-00.47.04:992][442]UATHelper: Packaging (Windows (64-bit)): Running: D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Binaries\Win64\UE4Editor-Cmd.exe D:\Unreal\UnrealPractice\MarbleRun\MarbleRun.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Programs\AutomationTool\Saved\Cook-2021.01.19-19.47.04.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2021.01.20-00.47.05:318][449]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: MarbleRun
+[2021.01.20-00.47.06:033][464]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17092923392 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.20-00.47.06:227][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.20-00.47.06:244][468]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.20-00.47.06:262][469]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.20-00.47.06:262][469]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.20-00.47.06:269][469]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.20-00.47.06:276][469]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.20-00.47.06:283][469]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.20-00.47.06:289][469]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.20-00.47.06:296][469]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.20-00.47.06:302][469]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.20-00.47.06:310][470]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.20-00.47.06:329][470]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.20-00.47.06:329][470]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.20-00.47.06:335][470]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.01.20-00.47.06:342][470]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.01.20-00.47.06:348][470]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.01.20-00.47.06:355][471]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.01.20-00.47.06:366][471]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.20-00.47.06:366][471]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.20-00.47.06:374][471]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.20-00.47.06:381][471]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.20-00.47.06:387][471]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.20-00.47.06:394][471]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.20-00.47.06:394][471]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2021.01.20-00.47.06:403][472]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.20-00.47.06:827][480]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.20-00.47.07:324][491]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.20-00.47.07:369][492]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zetas/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.01.20-00.47.07:380][492]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.20-00.47.07:422][493]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/zetas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=992.94MBs, RandomWriteSpeed=23.24MBs. Assigned SpeedClass 'Local'
+[2021.01.20-00.47.08:374][512]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.20-00.47.08:376][512]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.20-00.47.08:696][519]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.01.20-00.47.08:696][519]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2021.01.20-00.47.08:696][519]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2021.01.20-00.47.11:471][561]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2021.01.20-00.47.11:473][561]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2021.01.20-00.47.11:473][561]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2021.01.20-00.47.11:496][561]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.024 seconds for platforms WindowsNoEditor
+[2021.01.20-00.48.13:325][542]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2021.01.20-00.48.23:230][542]LogMainFrame: Project does not require temp target
+[2021.01.20-00.48.23:232][542]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game.target
+[2021.01.20-00.48.23:279][542]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2021.01.20-00.48.23:335][543]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject=D:/Unreal/UnrealPractice/MarbleRun/MarbleRun.uproject BuildCookRun -nocompileeditor -installed -nop4 -project=D:/Unreal/UnrealPractice/MarbleRun/MarbleRun.uproject -cook -stage -archive -archivedirectory=D:/Unreal/Packages -package -ue4exe="D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -ddc=InstalledDerivedDataBackendGraph -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Development -utf8output
+[2021.01.20-00.48.23:730][552]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for D:\Unreal\UnrealPractice\MarbleRun\MarbleRun.uproject
+[2021.01.20-00.48.23:914][556]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2021.01.20-00.48.23:919][556]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project D:\Unreal\UnrealPractice\MarbleRun\MarbleRun.uproject
+[2021.01.20-00.48.23:919][556]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Programs\AutomationTool\Saved\Cook-2021.01.19-19.48.23.txt
+[2021.01.20-00.48.23:921][556]UATHelper: Packaging (Windows (64-bit)): Running: D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Binaries\Win64\UE4Editor-Cmd.exe D:\Unreal\UnrealPractice\MarbleRun\MarbleRun.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Programs\AutomationTool\Saved\Cook-2021.01.19-19.48.23.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2021.01.20-00.48.24:249][563]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: MarbleRun
+[2021.01.20-00.48.24:888][576]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17092923392 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.20-00.48.25:071][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.20-00.48.25:092][580]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.20-00.48.25:109][581]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.20-00.48.25:109][581]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.20-00.48.25:116][581]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.20-00.48.25:122][581]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.20-00.48.25:129][581]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.20-00.48.25:135][581]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.20-00.48.25:143][582]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.20-00.48.25:149][582]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.20-00.48.25:155][582]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.20-00.48.25:175][582]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.20-00.48.25:175][582]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.20-00.48.25:182][582]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.01.20-00.48.25:191][583]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.01.20-00.48.25:195][583]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.01.20-00.48.25:202][583]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.01.20-00.48.25:213][583]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.20-00.48.25:213][583]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.20-00.48.25:221][583]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.20-00.48.25:227][583]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.20-00.48.25:234][583]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.20-00.48.25:242][584]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.20-00.48.25:242][584]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2021.01.20-00.48.25:248][584]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.20-00.48.25:642][592]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.20-00.48.26:134][602]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.20-00.48.26:172][603]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zetas/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.01.20-00.48.26:183][603]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.20-00.48.26:219][604]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/zetas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1487.26MBs, RandomWriteSpeed=27.96MBs. Assigned SpeedClass 'Local'
+[2021.01.20-00.48.27:138][623]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.20-00.48.27:138][623]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.20-00.48.27:460][630]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.01.20-00.48.27:460][630]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2021.01.20-00.48.27:460][630]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2021.01.20-00.48.27:660][634]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2021.01.20-00.48.27:679][635]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Inisetting is different for Windows Game /Script/UnrealEd.ProjectPackagingSettings StagingDirectory 0, value (Path="D:/Unreal/Packages") != (Path="D/Unreal") invalidating cook
+[2021.01.20-00.48.27:679][635]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: To avoid this add blacklist setting to DefaultEditor.ini [CookSettings] Windows.Game:/Script/UnrealEd.ProjectPackagingSettings
+[2021.01.20-00.48.27:679][635]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2021.01.20-00.48.27:699][635]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.037 seconds for platforms WindowsNoEditor
+[2021.01.20-00.51.58:704][967]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 48 Total 48
+[2021.01.20-00.51.58:704][967]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=167, VirtualMemory=684MiB
+[2021.01.20-00.51.59:250][978]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 224 Packages Remain 0 Total 224
+[2021.01.20-00.51.59:250][978]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook Diagnostics: OpenFileHandles=230, VirtualMemory=777MiB
+[2021.01.20-00.51.59:250][978]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2021.01.20-00.51.59:324][980]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2021.01.20-00.51.59:329][980]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2021.01.20-00.51.59:331][980]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2021.01.20-00.51.59:331][980]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2021.01.20-00.51.59:331][980]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2021.01.20-00.51.59:367][981]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry.
+[2021.01.20-00.51.59:380][981]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 216, size is 124.47kb
+[2021.01.20-00.51.59:380][981]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Code Stats: PCD3D_SM5
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders: 3459, Total Shaders: 3771, Unique Shadermaps: 265
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders Size: 7.99mb, Total Shader Size: 8.48mb
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 0.543827s total time 211.951111
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 814 MiB Peak Used physical 839 MiB
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CleanSandbox: 0.037s (1)
+[2021.01.20-00.51.59:415][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.003s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     CollectFilesToCook: 0.003s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CookModificationDelegate: 0.000s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GenerateLongPackageName: 0.000s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 0.544s (20)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.001s (338)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackageForCooking: 0.126s (224)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 0.415s (29)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         BeginPackageCacheForCookedPlatformData: 0.012s (21)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.178s (219)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           BeginPackageCacheForCookedPlatformData: 0.178s (203)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 0.219s (224)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 0.214s (224)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.002s (224)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.001s (216)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.002s (224)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.004s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.002s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.023s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.005s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.055s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.008s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.002s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.016s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.005s (1)
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2021.01.20-00.51.59:416][982]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.000639s to verify the EDL loading graph.
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=206.327194
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=1791.488138
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=0.963848
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=2851
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=208.749801
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=2851
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPreloadedDependencies=31
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumInlineLoads=3
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=176
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=0.442365
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: CookOnTheFlyServer
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakRequestQueueSize=30
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakLoadQueueSize=164
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PeakSaveQueueSize=156
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=224
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=0.206333
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=0.019871
+[2021.01.20-00.51.59:425][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.006840
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000088
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.000738
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.000781
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000127
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.042195
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.078972
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.006917
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=77.845408
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2021.01.20-00.51.59:426][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=215.336290
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=3.371399
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=211.954760
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=211.244652
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000011
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=0.706115
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=0.126364
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=0.218748
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=0.189947
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.000000
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000581
+[2021.01.20-00.51.59:428][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000011
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000027
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000007
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =       326
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =       552
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.590580
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.010870
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.579710
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.409420
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =       226
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =       226
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  1.000000
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.21                   0.21             1          0.01
+[2021.01.20-00.51.59:430][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.14                   0.14             0          4.97
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                             0.13                   0.00             0         29.57
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.02                   0.02             1          1.16
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.01                   0.01             1          0.55
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.00                   0.00             1          0.04
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.00                   0.00             0         39.63
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 0 warning(s)
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   
+[2021.01.20-00.51.59:432][982]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  211.97 seconds
+[2021.01.20-00.51.59:543][984]UATHelper: Packaging (Windows (64-bit)):   LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2021.01.20-00.51.59:844][984]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.01.20-00.52.00:517][987]UATHelper: Packaging (Windows (64-bit)): Took 216.5801463s to run UE4Editor-Cmd.exe, ExitCode=0
+[2021.01.20-00.52.00:517][987]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2021.01.20-00.52.00:517][987]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\BaseEditor.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\BaseEditorKeyBindings.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\BaseEditorSettings.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\BaseLightmass.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\BasePakFileRules.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\Category.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\Editor.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\EditorTutorials.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\Engine.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\Keywords.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\PortableObjectExport.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\PortableObjectImport.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\PropertyNames.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\RepairData.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\ToolTips.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\ProgramFiles\Epic Games\Games\UE_4.26\Engine\Config\Localization\WordCount.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Excluding config file D:\Unreal\UnrealPractice\MarbleRun\Config\DefaultEditor.ini
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: D:\Unreal\UnrealPractice\MarbleRun\Saved\StagedBuilds\WindowsNoEditor
+[2021.01.20-00.52.00:853][988]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2021.01.20-00.52.01:189][989]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2021.01.20-00.52.03:530][996]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2021.01.20-00.52.03:530][996]UATHelper: Packaging (Windows (64-bit)): Output from: D:\Unreal\UnrealPractice\MarbleRun\MarbleRun.uproject D:\Unreal\UnrealPractice\MarbleRun\Saved\StagedBuilds\WindowsNoEditor\MarbleRun\Content\Paks\MarbleRun-WindowsNoEditor.pak -create="C:\Users\zetas\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+ProgramFiles+Epic+Games+Games+UE_4.26\PakList_MarbleRun-WindowsNoEditor.txt" -cryptokeys=D:\Unreal\UnrealPractice\MarbleRun\Saved\Cooked\WindowsNoEditor\MarbleRun\Metadata\Crypto.json -order=D:\Unreal\UnrealPractice\MarbleRun\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log -patchpaddingalign=2048 -platform=Windows  -multiprocess -abslog="C:\Users\zetas\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+ProgramFiles+Epic+Games+Games+UE_4.26\UnrealPak-MarbleRun-WindowsNoEditor-2021.01.19-19.52.00.txt"
+[2021.01.20-00.52.03:530][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\zetas\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+ProgramFiles+Epic+Games+Games+UE_4.26\PakList_MarbleRun-WindowsNoEditor.txt
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 1548 entries to add to pak file.
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file D:\Unreal\UnrealPractice\MarbleRun\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file D:\Unreal\UnrealPractice\MarbleRun\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 1548 files in 0.01s.
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak D:\Unreal\UnrealPractice\MarbleRun\Saved\StagedBuilds\WindowsNoEditor\MarbleRun\Content\Paks\MarbleRun-WindowsNoEditor.pak.
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Performance to C:/Users/zetas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.00ms. RandomReadSpeed=999.00MBs, RandomWriteSpeed=999.00MBs. Assigned SpeedClass 'Local'
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 1548 files, 104337827 bytes total, time 1.67s.
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: PrimaryIndex size: 18690 bytes
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: PathHashIndex size: 41189 bytes
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: FullDirectoryIndex size: 50128 bytes
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 1.704479 seconds
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2021.01.20-00.52.03:531][996]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: D:\Unreal\UnrealPractice\MarbleRun\Saved\StagedBuilds\WindowsNoEditor
+[2021.01.20-00.52.03:865][997]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2021.01.20-00.52.03:865][997]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2021.01.20-00.52.03:865][997]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2021.01.20-00.52.03:865][997]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2021.01.20-00.52.03:865][997]UATHelper: Packaging (Windows (64-bit)): Archiving to D:/Unreal/Packages
+[2021.01.20-00.52.04:545][999]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2021.01.20-00.52.04:545][999]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2021.01.20-00.52.04:545][999]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
+[2021.01.20-00.55.40:491][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2021.01.20-00.55.40:598][714]LogSavePackage: Moving '../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/Level1651082694906525CBB1BBA8C892C0057.tmp' to '../../../../../../../Unreal/UnrealPractice/MarbleRun/Content/StarterContent/Maps/Level1.umap'
+[2021.01.20-00.55.40:611][714]LogFileHelpers: Saving map 'Level1' took 0.160
+[2021.01.20-00.55.40:619][714]AssetCheck: New page: Asset Save: Level1
+[2021.01.20-00.55.40:619][714]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Level1.Level1
+[2021.01.20-00.55.42:110][800]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.01.20-00.55.42:823][813]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.20-00.55.42:833][813]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.01.20-00.55.42:836][813]LogPlayLevel: [PlayLevel] Compiling Level1 before play...
+[2021.01.20-00.55.42:885][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.01.20-00.55.42:886][813]LogPlayLevel: PlayLevel: Blueprint regeneration took 52 ms (1 blueprints)
+[2021.01.20-00.55.42:886][813]PIE: New page: PIE session: Level1 (Jan. 19, 2021, 2:55:42 p.m.)
+[2021.01.20-00.55.42:886][813]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Level1
+[2021.01.20-00.55.42:912][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025576s)
+[2021.01.20-00.55.42:912][813]LogAIModule: Creating AISystem for world Level1
+[2021.01.20-00.55.42:913][813]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2021.01.20-00.55.42:913][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Level1.Level1 to /Game/StarterContent/Maps/UEDPIE_0_Level1.Level1 (0.026567s)
+[2021.01.20-00.55.42:930][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.01.20-00.55.42:931][813]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2021.01.20-00.55.42:931][813]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.20-00.55.42:931][813]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.20-00.55.42:931][813]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.20-00.55.42:931][813]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.20-00.55.42:931][813]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.20-00.55.42:931][813]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.20-00.55.42:931][813]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.20-00.55.42:931][813]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.20-00.55.42:931][813]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.20-00.55.42:931][813]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.20-00.55.42:933][813]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.20-00.55.42:933][813]LogAudioMixer: Display: 1: FrontRight
+[2021.01.20-00.55.42:941][813]LogAudioMixer: Display: Using Audio Device BenQ GW2480 (NVIDIA High Definition Audio)
+[2021.01.20-00.55.42:941][813]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.20-00.55.42:941][813]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.20-00.55.42:941][813]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.20-00.55.42:941][813]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.20-00.55.42:941][813]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.20-00.55.42:941][813]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.20-00.55.42:953][813]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.20-00.55.42:953][813]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.20-00.55.42:953][813]LogInit: FAudioDevice initialized.
+[2021.01.20-00.55.42:953][813]LogAudio: Display: Audio Device (ID: 29) registered with world 'Level1'.
+[2021.01.20-00.55.42:961][813]LogLoad: Game class is 'GameModeBase'
+[2021.01.20-00.55.42:962][813]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2021.01.19-19.55.42
+[2021.01.20-00.55.42:962][813]LogWorld: Bringing up level for play took: 0.000737
+[2021.01.20-00.55.42:962][813]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2021.01.20-00.55.42:964][813]LogBlueprintUserMessages: [Level1_C_7] Fuck This World
+[2021.01.20-00.55.42:964][813]PIE: Server logged in
+[2021.01.20-00.55.42:965][813]PIE: Play in editor total start time 0.132 seconds.
+[2021.01.20-00.55.44:660][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.20-00.55.44:661][852]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Level1
+[2021.01.20-00.55.44:661][852]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2021.01.20-00.55.44:661][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.20-00.55.44:749][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.20-00.55.44:759][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.20-00.55.44:773][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.20-00.55.44:774][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.20-00.55.44:774][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.20-00.55.44:791][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.01.20-00.55.44:821][853]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2021.01.20-00.56.08:196][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.01.20-00.56.08:304][ 30]LogSavePackage: Moving '../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/Level153BDAE8949B12AA11CADF1AA923C175C.tmp' to '../../../../../../../Unreal/UnrealPractice/MarbleRun/Content/StarterContent/Maps/Level1.umap'
+[2021.01.20-00.56.08:316][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Level1_BuiltData" FILE="../../../../../../../Unreal/UnrealPractice/MarbleRun/Content/StarterContent/Maps/Level1_BuiltData.uasset" SILENT=true
+[2021.01.20-00.56.08:331][ 30]LogSavePackage: Moving '../../../../../../../Unreal/UnrealPractice/MarbleRun/Saved/Level1_BuiltDataB84E114549D0FE526C4386AEB50B2D3D.tmp' to '../../../../../../../Unreal/UnrealPractice/MarbleRun/Content/StarterContent/Maps/Level1_BuiltData.uasset'
+[2021.01.20-00.56.08:340][ 30]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.20-00.56.08:340][ 30]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Level1.Level1
+[2021.01.20-00.56.08:340][ 30]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Level1_BuiltData.Level1_BuiltData
